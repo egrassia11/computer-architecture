@@ -26,7 +26,7 @@ module early_cpu(in, zero, clk, rst);
         else if (branch_sel && zero) 
             pc <= pc + {{19{imm_b[11]}}, imm_b};
         else 
-            pc <= pc_plus_4;  // Increment PC by 4
+            pc <= pc_plus_4;
     end
 
     // Instruction memory instantiation
@@ -73,7 +73,7 @@ module early_cpu(in, zero, clk, rst);
     alu32 alu0(
         .A(rf_do0), 
         .B(alu_din1), 
-        .ALUop({1'b0, alu_func}), // Assuming ALUop is 4 bits, pad with a leading 0
+        .ALUop({1'b0, alu_func}),
         .ALU_result(alu_do),
         .Zero(zero)
     );
