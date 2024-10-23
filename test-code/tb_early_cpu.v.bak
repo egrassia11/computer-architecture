@@ -46,6 +46,7 @@ module tb_early_cpu;
         instruction = 32'b00000000010000001000001010000011;
         #20;
 
+        // End simulation
         $finish;
     end
 

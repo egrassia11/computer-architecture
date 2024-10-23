@@ -1,0 +1,402 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ethan/luc-repos/computer-architecture
+valu32
+Z1 !s110 1729622354
+!i10b 1
+!s100 PzeNVcY3faQiAdI^NS[8]0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I@CDXZQ273?g3ZYDg9A4IO2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z4 w1729621091
+8/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/alu32.v
+F/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/alu32.v
+!i122 28
+L0 1 22
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1729622354.000000
+!s107 /home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/alu32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/alu32.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vbarrel_shifter32
+R1
+!i10b 1
+!s100 k1<Wb0RC4nVTn8ChzY?nF0
+R2
+IRmTl;V1cTL37`[oIVd5m=3
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/barrel_shifter32.v
+F/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/barrel_shifter32.v
+!i122 29
+L0 1 18
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/barrel_shifter32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/barrel_shifter32.v|
+!i113 1
+R7
+R8
+vdecode
+!s110 1729622902
+!i10b 1
+!s100 8P>ZH1zj>[3AcS9IdaY4Z0
+R2
+I:Lc]h:[LbHeKeCioEVI0W1
+R3
+R0
+w1729622897
+8/home/ethan/luc-repos/computer-architecture/cpu/decode.v
+F/home/ethan/luc-repos/computer-architecture/cpu/decode.v
+!i122 41
+L0 25 131
+R5
+r1
+!s85 0
+31
+!s108 1729622902.000000
+!s107 /home/ethan/luc-repos/computer-architecture/cpu/decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/cpu/decode.v|
+!i113 1
+R7
+R8
+vearly_cpu
+R1
+!i10b 1
+!s100 ]]6dM3A4C4XCzM7oMLZFE3
+R2
+I`^bAY]?7gKimjPdabO2B42
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v
+F/home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v
+!i122 24
+L0 3 99
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v|
+!i113 1
+R7
+R8
+vfull_adder
+R1
+!i10b 1
+!s100 Qi9M9CXT6gzb3Q6CO^A:H0
+R2
+IEL[LV>9k>:KYWV`;@7XL<2
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/muxes-fulladder/full_adder.v
+F/home/ethan/luc-repos/computer-architecture/muxes-fulladder/full_adder.v
+!i122 25
+Z9 L0 1 12
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ethan/luc-repos/computer-architecture/muxes-fulladder/full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/muxes-fulladder/full_adder.v|
+!i113 1
+R7
+R8
+vmemory2c
+Z10 !s110 1729622355
+!i10b 1
+!s100 ofIX0F@NYQGA12R:MZ_gh2
+R2
+I53PLP]_e@KHMFGk2DJFaT3
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/test-code/memory2c.v
+F/home/ethan/luc-repos/computer-architecture/test-code/memory2c.v
+!i122 31
+L0 35 60
+R5
+r1
+!s85 0
+31
+Z11 !s108 1729622355.000000
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/memory2c.v|
+!i113 1
+R7
+R8
+vmux2to1
+R1
+!i10b 1
+!s100 D5aUVn]:116QZg^@H7fKL0
+R2
+IOUKlzTknkTS[e=M6CCXj<2
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v
+F/home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v
+!i122 26
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v|
+!i113 1
+R7
+R8
+vmux4to1
+R1
+!i10b 1
+!s100 `Q^odLkN8>NToHez=e?=o1
+R2
+I0WHl_LRDB;Ujh4MHU<@@k1
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux4to1.v
+F/home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux4to1.v
+!i122 27
+R9
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux4to1.v|
+!i113 1
+R7
+R8
+vregister_file
+!s110 1729622779
+!i10b 1
+!s100 _Ig4eEDYD@W<5eTLb[VOH0
+R2
+ITAN`c?4k^[ON6`Z:Pz]530
+R3
+R0
+w1729622775
+8/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/register_file.v
+F/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/register_file.v
+!i122 40
+L0 4 26
+R5
+r1
+!s85 0
+31
+!s108 1729622779.000000
+!s107 /home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/register_file.v|
+!i113 1
+R7
+R8
+vtb_alu
+R10
+!i10b 1
+!s100 `K5Elm0ji`gYGmO4@IR<]1
+R2
+ISzaH2:DSB>AbUz2UoPE?>1
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/test-code/tb_alu.v
+F/home/ethan/luc-repos/computer-architecture/test-code/tb_alu.v
+!i122 32
+L0 1 36
+R5
+r1
+!s85 0
+31
+R11
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/tb_alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/tb_alu.v|
+!i113 1
+R7
+R8
+vtb_barrel_shifter32
+R10
+!i10b 1
+!s100 MB]1bQhfE8j><KdS1GYd02
+R2
+IOMk=0gi`H:Gj9RWX4g^3X0
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/test-code/tb_barrel_shifter32.v
+F/home/ethan/luc-repos/computer-architecture/test-code/tb_barrel_shifter32.v
+!i122 33
+Z12 L0 1 28
+R5
+r1
+!s85 0
+31
+R11
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/tb_barrel_shifter32.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/tb_barrel_shifter32.v|
+!i113 1
+R7
+R8
+vtb_decode
+R10
+!i10b 1
+!s100 5jT?2<2RmKkfE^nF2Y;?E2
+R2
+IV4ZXR7[>IPG]NV[WZEGDP0
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/test-code/tb_decode.v
+F/home/ethan/luc-repos/computer-architecture/test-code/tb_decode.v
+!i122 34
+L0 3 51
+R5
+r1
+!s85 0
+31
+R11
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/tb_decode.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/tb_decode.v|
+!i113 1
+R7
+R8
+vtb_early_cpu
+!s110 1729622994
+!i10b 1
+!s100 l5;nDNz@GdFP<zFVO26aB3
+R2
+IhRQ];g7bggb9MhhblA3C03
+R3
+R0
+w1729622990
+8/home/ethan/luc-repos/computer-architecture/test-code/tb_early_cpu.v
+F/home/ethan/luc-repos/computer-architecture/test-code/tb_early_cpu.v
+!i122 44
+L0 4 49
+R5
+r1
+!s85 0
+31
+!s108 1729622994.000000
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/tb_early_cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/tb_early_cpu.v|
+!i113 1
+R7
+R8
+vtb_full_adder
+!s110 1729623032
+!i10b 1
+!s100 ^[N3_endcj:naB]hJOi1J1
+R2
+I@R2:McfhzPBSj8IcO>``>3
+R3
+R0
+w1729623029
+8/home/ethan/luc-repos/computer-architecture/test-code/tb_full_adder.v
+F/home/ethan/luc-repos/computer-architecture/test-code/tb_full_adder.v
+!i122 45
+L0 3 25
+R5
+r1
+!s85 0
+31
+!s108 1729623032.000000
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/tb_full_adder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/tb_full_adder.v|
+!i113 1
+R7
+R8
+vtb_mux2to1
+!s110 1729622919
+!i10b 1
+!s100 k<e?`Y;FAc<F15aJM`oIZ3
+R2
+IOjJTH]XC88UKCV^SkmdoT1
+R3
+R0
+w1729622916
+8/home/ethan/luc-repos/computer-architecture/test-code/tb_mux2to1.v
+F/home/ethan/luc-repos/computer-architecture/test-code/tb_mux2to1.v
+!i122 42
+Z13 L0 3 24
+R5
+r1
+!s85 0
+31
+!s108 1729622919.000000
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/tb_mux2to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/tb_mux2to1.v|
+!i113 1
+R7
+R8
+vtb_mux4to1
+!s110 1729622955
+!i10b 1
+!s100 hbl9d@hAW6ZX7W`25QKc31
+R2
+I3jXFdmVF?7]Ug^A3lcW@C2
+R3
+R0
+w1729622953
+8/home/ethan/luc-repos/computer-architecture/test-code/tb_mux4to1.v
+F/home/ethan/luc-repos/computer-architecture/test-code/tb_mux4to1.v
+!i122 43
+R13
+R5
+r1
+!s85 0
+31
+!s108 1729622955.000000
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/tb_mux4to1.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/tb_mux4to1.v|
+!i113 1
+R7
+R8
+vtb_register_file
+R10
+!i10b 1
+!s100 M]39zhSTNWB_CJknFb[;U3
+R2
+I4d2KTJdM1A;@e>gFoPzdi2
+R3
+R0
+R4
+8/home/ethan/luc-repos/computer-architecture/test-code/tb_register_file.v
+F/home/ethan/luc-repos/computer-architecture/test-code/tb_register_file.v
+!i122 39
+R12
+R5
+r1
+!s85 0
+31
+R11
+!s107 /home/ethan/luc-repos/computer-architecture/test-code/tb_register_file.v|
+!s90 -reportprogress|300|-work|work|-stats=none|/home/ethan/luc-repos/computer-architecture/test-code/tb_register_file.v|
+!i113 1
+R7
+R8

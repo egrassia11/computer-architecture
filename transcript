@@ -1,0 +1,267 @@
+project open /home/ethan/luc-repos/computer-architecture/project
+# Loading project project
+vsim work.tb_early_cpu
+# vsim work.tb_early_cpu 
+# Start time: 14:25:44 on Oct 22,2024
+# Loading work.tb_early_cpu
+# Loading work.early_cpu
+# Loading work.memory2c
+# Loading work.decode
+# Loading work.register_file
+# Loading work.mux2to1
+# Loading work.alu32
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (12) for port 'imm_j'. The port definition is at: /home/ethan/luc-repos/computer-architecture/cpu/decode.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/dl File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'a'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'out'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'a'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'out'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+add wave -position end  sim:/tb_early_cpu/clk
+add wave -position end  sim:/tb_early_cpu/rst
+add wave -position end  sim:/tb_early_cpu/instruction
+add wave -position end  sim:/tb_early_cpu/cpu_inst/instr
+add wave -position end  sim:/tb_early_cpu/cpu_inst/pc_next
+add wave -position end  sim:/tb_early_cpu/cpu_inst/pc
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v(71)
+#    Time: 5 us  Iteration: 1  Instance: /tb_early_cpu/cpu_inst/imem
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v(71)
+#    Time: 5 us  Iteration: 1  Instance: /tb_early_cpu/cpu_inst/dmem
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/tb_early_cpu/cpu_inst/pc_plus_4
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (12) for port 'imm_j'. The port definition is at: /home/ethan/luc-repos/computer-architecture/cpu/decode.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/dl File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'a'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'out'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'a'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'out'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+run
+run
+run
+run
+run
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v(71)
+#    Time: 5 us  Iteration: 1  Instance: /tb_early_cpu/cpu_inst/imem
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v(71)
+#    Time: 5 us  Iteration: 1  Instance: /tb_early_cpu/cpu_inst/dmem
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[0]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[1]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[2]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[3]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[4]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[5]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[6]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[7]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[8]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[9]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[10]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[11]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[12]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[13]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[14]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[15]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[16]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[17]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[18]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[19]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[20]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[21]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[22]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[23]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[24]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[25]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[26]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[27]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[28]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[29]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[30]
+add wave -position end  sim:/tb_early_cpu/cpu_inst/rf/registers[31]
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (12) for port 'imm_j'. The port definition is at: /home/ethan/luc-repos/computer-architecture/cpu/decode.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/dl File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'a'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'out'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'a'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'out'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+run
+run
+run
+run
+run
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v(71)
+#    Time: 5 us  Iteration: 1  Instance: /tb_early_cpu/cpu_inst/imem
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v(71)
+#    Time: 5 us  Iteration: 1  Instance: /tb_early_cpu/cpu_inst/dmem
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (21) does not match connection size (12) for port 'imm_j'. The port definition is at: /home/ethan/luc-repos/computer-architecture/cpu/decode.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/dl File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 45
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'a'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'out'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_alu_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 65
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'a'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(2).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'b'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (32) for port 'out'. The port definition is at: /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v(5).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_early_cpu/cpu_inst/mux_dmem_src File: /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v Line: 94
+run
+run
+run
+run
+run
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v(71)
+#    Time: 5 us  Iteration: 1  Instance: /tb_early_cpu/cpu_inst/imem
+# ** Warning: (vsim-7) Failed to open readmem file "loadfile_all.img" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v(71)
+#    Time: 5 us  Iteration: 1  Instance: /tb_early_cpu/cpu_inst/dmem
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vsim work.decode
+# End time: 15:36:02 on Oct 22,2024, Elapsed time: 1:10:18
+# Errors: 0, Warnings: 10
+# vsim work.decode 
+# Start time: 15:36:02 on Oct 22,2024
+# Loading work.decode
+vsim work.decode
+# End time: 15:36:47 on Oct 22,2024, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 1
+# vsim work.decode 
+# Start time: 15:36:47 on Oct 22,2024
+# Loading work.decode

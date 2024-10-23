@@ -1,0 +1,116 @@
+/home/ethan/luc-repos/computer-architecture/cpu/decode.v {2 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/cpu/decode.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module decode
+** Warning: /home/ethan/luc-repos/computer-architecture/cpu/decode.v(81): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: ** while parsing macro expansion: 'ALU_AND' starting at /home/ethan/luc-repos/computer-architecture/cpu/decode.v(81)
+** at /home/ethan/luc-repos/computer-architecture/cpu/decode.v(81): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	decode
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/tb_mux2to1.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/tb_mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_mux2to1
+
+Top level modules:
+	tb_mux2to1
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/memory2c.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module memory2c
+
+Top level modules:
+	memory2c
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/tb_mux4to1.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/tb_mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_mux4to1
+
+Top level modules:
+	tb_mux4to1
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/tb_alu.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/tb_alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_alu
+
+Top level modules:
+	tb_alu
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/barrel_shifter32.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/barrel_shifter32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module barrel_shifter32
+
+Top level modules:
+	barrel_shifter32
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/tb_register_file.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/tb_register_file.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_register_file
+
+Top level modules:
+	tb_register_file
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/tb_early_cpu.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/tb_early_cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_early_cpu
+
+Top level modules:
+	tb_early_cpu
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/tb_decode.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/tb_decode.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_decode
+
+Top level modules:
+	tb_decode
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux2to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux2to1
+
+Top level modules:
+	mux2to1
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux4to1.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/muxes-fulladder/mux4to1.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module mux4to1
+
+Top level modules:
+	mux4to1
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/muxes-fulladder/full_adder.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/muxes-fulladder/full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module full_adder
+
+Top level modules:
+	full_adder
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/cpu/early_cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module early_cpu
+
+Top level modules:
+	early_cpu
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/tb_barrel_shifter32.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/tb_barrel_shifter32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_barrel_shifter32
+
+Top level modules:
+	tb_barrel_shifter32
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/alu32.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/shifter-alu-regfile/alu32.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu32
+
+Top level modules:
+	alu32
+
+} {} {}} /home/ethan/luc-repos/computer-architecture/test-code/tb_full_adder.v {1 {vlog -work work -stats=none /home/ethan/luc-repos/computer-architecture/test-code/tb_full_adder.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_full_adder
+
+Top level modules:
+	tb_full_adder
+
+} {} {}}

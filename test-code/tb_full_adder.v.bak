@@ -14,6 +14,7 @@ module tb_full_adder;
     );
 
     initial begin
+        // Monitor signals
         $monitor("a = %b, b = %b, cin = %b, sum = %b, cout = %b", a, b, cin, sum, cout);
 
         // Test cases

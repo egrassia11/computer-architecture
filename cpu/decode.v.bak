@@ -66,7 +66,7 @@ module decode(
         ext_imm    = 32'b0;
 
         case(opcode)
-            
+            // Arithmetic
             `OP_ARITH: begin
                 alu_src = 1'b0;
                 rw_sel = 1'b1;
@@ -90,7 +90,7 @@ module decode(
                 ext_imm = {{20{imm_i[11]}}, imm_i};
             end
 
-            // Load operation
+            // Load operation (I-type)
             `OP_LOAD: begin
                 branch_sel = 1'b0;
                 mr_sel     = 1'b1;
@@ -101,7 +101,7 @@ module decode(
                 ext_imm    = {{20{imm_i[11]}}, imm_i};
             end
 
-            // Store operation
+            // Store operation (S-type)
             `OP_STORE: begin
                 branch_sel = 1'b0;
                 mr_sel     = 1'b0;

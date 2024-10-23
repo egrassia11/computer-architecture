@@ -1,5 +1,5 @@
 
-`timescale 1us/1ps
+`timescale 1ns/1ps
 
 module register_file (
     input wire clk,

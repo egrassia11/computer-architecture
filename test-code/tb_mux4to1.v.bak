@@ -5,7 +5,7 @@ module tb_mux4to1;
     reg [1:0] sel;
     wire out;
 
-    // Instantiate the 4 to 1 mux
+    // Instantiate the 4 to 1 MUX
     mux4to1 uut (
         .in(in),
         .sel(sel),
@@ -13,6 +13,7 @@ module tb_mux4to1;
     );
 
     initial begin
+        // Monitor signals
         $monitor("in = %b, sel = %b, out = %b", in, sel, out);
 
         // Test cases
